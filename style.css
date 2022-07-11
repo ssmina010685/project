@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+.profile{
+    border-radius:50%;
+}
+h1{
+    text-align: center;
+    font-size:45px;
+    font-family:sans-serif;
+    font-weight:300;
+}
+h2{
+    font-size:40px;
+    font-family:fantasy;
+    font-weight:400;
+}
+#name{
+    font-family:cursive;
+    font-size:70px;
+}
+#bio{
+    padding:100px;
+    font-family:serif;
+}
+.line{
+    height:7px;
+    width:70px;
+    background-color:black;
+    margin:8px auto;
+}
+.menu{
+    list-style: none;
+    position:fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index:1;
+    cursor: pointer;
+    background-color: aqua;
+}
+#welcome{
+    position: absolute;
+    bottom:0;
+    display:table;
+    height:100%;
+    width:100%;
+    background:linear-gradient(rgb(22, 102, 22)0%,rgb(25, 25, 156)50%,rgb(158, 35, 35)100%);
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.links{
+    font-size:20px;
+    font-family: monospace;
+    padding-left:10px;
+    padding-right:10px;
+    display: inline;
+}
+.links:hover{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+#writing a{
+    text-decoration: underline;
+    color: chartreuse;
+}
+#contact iframe{
+    width: 100%;
+
+}
+#contact_1 h3{
+ display: inline;
+}
